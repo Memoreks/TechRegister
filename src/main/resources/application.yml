@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/tech
+    username: user
+    password: pass
+    driver-class-name: org.postgresql.Driver
+  application:
+    name: TechicalRegister
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+
